@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bennett App',
       theme: AppTheme.lightTheme,
-      home: const StudentHomePage(),
+      home:  StudentHomePage(),
     );
   }
 }

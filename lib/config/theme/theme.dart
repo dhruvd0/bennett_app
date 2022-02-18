@@ -4,7 +4,7 @@ class AppTheme {
   static ThemeData lightTheme = ThemeData(
     backgroundColor: Colors.white,
     appBarTheme: AppBarTheme(
-      backgroundColor:Colors.red.shade800
+      backgroundColor:Colors.red.shade900
     )
   );
 }
