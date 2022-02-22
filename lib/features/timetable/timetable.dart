@@ -10,15 +10,13 @@ class TimeTablePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Title(
-            child: Text("Timetable"),
+            child: const Text("Timetable"),
             color: Colors.white,
           ),
           elevation: 0,
         ),
-        body: Container(
-          child: Column(
-            children: [PickDay(), TimeLine()],
-          ),
+        body: Column(
+          children: const [PickDay(), TimeLine()],
         ));
   }
 }
