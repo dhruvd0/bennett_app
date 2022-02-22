@@ -1,7 +1,5 @@
 import 'package:bennett_app/config/theme/theme.dart';
 import 'package:bennett_app/features/homepage/student/student_homepage.dart';
-import 'package:bennett_app/features/timetable/timeline.dart';
-import 'package:bennett_app/features/timetable/timetable.dart';
 import 'package:flutter/material.dart';
 
 void main() {

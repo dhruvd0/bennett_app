@@ -9,7 +9,7 @@ class StudentHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(),
+      drawer: const Drawer(),
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
         title: Title(
@@ -25,7 +25,7 @@ class StudentHomePage extends StatelessWidget {
               height: 200,
               color: Colors.blue[300],
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
             Flexible(
@@ -39,7 +39,7 @@ class StudentHomePage extends StatelessWidget {
                               color: Colors.black,
                               size: 30,
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 10,
                             ),
                             Text(key),
