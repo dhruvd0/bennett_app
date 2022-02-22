@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 
 class StudentHomePage extends StatelessWidget {
   StudentHomePage({Key? key}) : super(key: key);
-  final gridButtons = {'Time Table': Icons.calendar_today,'Attendance':Icons.note};
+  final gridButtons = {
+    'Time Table': Icons.calendar_today,
+    'Attendance': Icons.note
+  };
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +23,7 @@ class StudentHomePage extends StatelessWidget {
           children: [
             Container(
               height: 200,
-              color: Colors.green,
+              color: Colors.blue[300],
             ),
             SizedBox(
               height: 50,
