@@ -1,3 +1,4 @@
+import 'package:bennett_app/features/attendance/attendance.dart';
 import 'package:bennett_app/features/homepage/models/grid_button_info.dart';
 import 'package:bennett_app/features/homepage/student/widgets/student_homepage.dart';
 import 'package:bennett_app/features/timetable/timetable.dart';
@@ -23,6 +24,13 @@ class HomepageNotifier extends StateNotifier<List<GridButtonInfo>> {
                 MaterialPageRoute(builder: (_) => const TimeTablePage()),
               );
             },
-          )
+          ),
+          GridButtonInfo(
+              title: 'Attendance',
+              icon: Icons.fingerprint,
+              onTap: (context) {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const AttendancePage()));
+              })
         ]);
 }
