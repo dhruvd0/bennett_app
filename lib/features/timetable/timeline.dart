@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 ///
-// TODO(rohit0110): Add a description for this widget
+// Based on selected day, will show list of classes
 class TimeLine extends StatefulWidget {
   ///
   const TimeLine({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class TimeLine extends StatefulWidget {
 ///
 class TimeLineState extends State<TimeLine> {
   ///
-  // TODO(rohit0110): Add a description for this list, see : https://dart-lang.github.io/linter/lints/public_member_api_docs.html
+  // List that will contain the final information to be displayed on the timetable page, filled with constants for now
   final classList = [
     'Class 1',
     'Class 2',

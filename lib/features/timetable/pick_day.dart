@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-///
-// TODO(rohit0110): Add a description for this widget
+// Widget with seven days displayed on them,
+// gives option to choose day on the basis of which the time table will be shown
 class PickDay extends StatefulWidget {
   ///
   const PickDay({Key? key}) : super(key: key);
@@ -10,12 +10,10 @@ class PickDay extends StatefulWidget {
   PickDayState createState() => PickDayState();
 }
 
-///
 class PickDayState extends State<PickDay> {
-  ///
   final weekList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-  ///
+  // based on change of index, different data will be shown
   int selectedWeekIndex = 0;
   @override
   Widget build(BuildContext context) {
