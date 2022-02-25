@@ -1,5 +1,4 @@
 import 'package:bennett_app/config/theme/theme.dart';
-import 'package:bennett_app/features/attendance/attendance.dart';
 import 'package:bennett_app/features/homepage/student/widgets/student_homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

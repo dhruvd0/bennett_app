@@ -26,11 +26,13 @@ class HomepageNotifier extends StateNotifier<List<GridButtonInfo>> {
             },
           ),
           GridButtonInfo(
-              title: 'Attendance',
-              icon: Icons.fingerprint,
-              onTap: (context) {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (_) => const AttendancePage()));
-              })
+            title: 'Attendance',
+            icon: Icons.fingerprint,
+            onTap: (context) {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const AttendancePage()),
+              );
+            },
+          )
         ]);
 }
