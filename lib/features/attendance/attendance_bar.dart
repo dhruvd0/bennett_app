@@ -11,10 +11,10 @@ class AttendanceBar extends StatefulWidget {
 class _AttendanceBarState extends State<AttendanceBar> {
   //list that will contain widgets with attendance information
   final attendanceList = [
-    "Attendance 1",
-    "Attendance 2",
-    "Attendance 3",
-    "Attendance 4"
+    'Attendance 1',
+    'Attendance 2',
+    'Attendance 3',
+    'Attendance 4'
   ];
   @override
   Widget build(BuildContext context) {
