@@ -32,8 +32,8 @@ class PickDayState extends State<PickDay> {
           }),
           child: Container(
             padding: const EdgeInsets.all(15),
-           width: 60,
-           height: 50,
+            width: 60,
+            height: 50,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               color: selectedWeekIndex == index
@@ -44,7 +44,8 @@ class PickDayState extends State<PickDay> {
               child: Text(
                 weekList[index],
                 style: TextStyle(
-                  color: selectedWeekIndex == index ? Colors.black : Colors.grey,
+                  color:
+                      selectedWeekIndex == index ? Colors.black : Colors.grey,
                 ),
               ),
             ),

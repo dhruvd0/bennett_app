@@ -14,7 +14,7 @@ class AttendancePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RedAppBarScaffold(
-     title: 'Attendance',
+      title: 'Attendance',
       body: Column(
         children: const [
           HeadingsBar(),

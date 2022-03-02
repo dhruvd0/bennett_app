@@ -66,7 +66,7 @@ class HomepageNotifier extends StateNotifier<List<GridButtonInfo>> {
               );
             },
           ),
-           GridButtonInfo(
+          GridButtonInfo(
             title: 'Notifications',
             icon: Icons.notification_important,
             onTap: (context) {
@@ -75,7 +75,7 @@ class HomepageNotifier extends StateNotifier<List<GridButtonInfo>> {
               );
             },
           ),
-           GridButtonInfo(
+          GridButtonInfo(
             title: 'Hostel Requests',
             icon: Icons.merge,
             onTap: (context) {

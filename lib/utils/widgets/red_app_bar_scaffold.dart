@@ -19,7 +19,7 @@ class RedAppBarScaffold extends StatelessWidget {
       appBar: AppBar(
         title: Title(
           color: Colors.white,
-          child:  Text(title),
+          child: Text(title),
         ),
         elevation: 0,
       ),

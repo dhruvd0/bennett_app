@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 ///
 class FoodMenuPage extends StatelessWidget {
-  
+  ///
   const FoodMenuPage({Key? key}) : super(key: key);
 
   @override
