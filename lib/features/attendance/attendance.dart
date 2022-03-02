@@ -1,5 +1,6 @@
 import 'package:bennett_app/features/attendance/attendance_bar.dart';
 import 'package:bennett_app/features/attendance/headings_bar.dart';
+import 'package:bennett_app/utils/widgets/red_app_bar_scaffold.dart';
 import 'package:flutter/material.dart';
 
 /// Attendance Page, with a heading widget and AttendanceBars widget
@@ -12,14 +13,8 @@ class AttendancePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Title(
-          color: Colors.white,
-          child: const Text('Attendance'),
-        ),
-        elevation: 0,
-      ),
+    return RedAppBarScaffold(
+     title: 'Attendance',
       body: Column(
         children: const [
           HeadingsBar(),

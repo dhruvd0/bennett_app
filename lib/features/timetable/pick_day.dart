@@ -31,18 +31,21 @@ class PickDayState extends State<PickDay> {
             selectedWeekIndex = index;
           }),
           child: Container(
-            padding: const EdgeInsets.all(12),
-            margin: const EdgeInsets.symmetric(horizontal: 3),
+            padding: const EdgeInsets.all(15),
+           width: 60,
+           height: 50,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(30),
               color: selectedWeekIndex == index
                   ? Colors.grey.withOpacity(0.1)
                   : null,
             ),
-            child: Text(
-              weekList[index],
-              style: TextStyle(
-                color: selectedWeekIndex == index ? Colors.black : Colors.grey,
+            child: Center(
+              child: Text(
+                weekList[index],
+                style: TextStyle(
+                  color: selectedWeekIndex == index ? Colors.black : Colors.grey,
+                ),
               ),
             ),
           ),

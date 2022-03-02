@@ -1,5 +1,6 @@
 import 'package:bennett_app/features/timetable/pick_day.dart';
 import 'package:bennett_app/features/timetable/timeline.dart';
+import 'package:bennett_app/utils/widgets/red_app_bar_scaffold.dart';
 import 'package:flutter/material.dart';
 
 /// Page consisting of 2 widgets.
@@ -10,15 +11,10 @@ class TimeTablePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Title(
-          color: Colors.white,
-          child: const Text('Timetable'),
-        ),
-        elevation: 0,
-      ),
+    return RedAppBarScaffold(
+      title: 'Timetable',
       body: Column(
+        mainAxisSize: MainAxisSize.min,
         children: const [PickDay(), TimeLine()],
       ),
     );

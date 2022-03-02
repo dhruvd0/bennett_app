@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const BennettApp());
 }
 
 ///
-class MyApp extends StatelessWidget {
+class BennettApp extends StatelessWidget {
   ///
-  const MyApp({Key? key}) : super(key: key);
+  const BennettApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
